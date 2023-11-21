@@ -9,17 +9,27 @@
 /* Begin PBXBuildFile section */
 		9C42B6D92AECEE0C003EAE63 /* фшф .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42B6D82AECEE0C003EAE63 /* фшф .swift */; };
 		9C42B6DB2AECEF2C003EAE63 /* TicTacToeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42B6DA2AECEF2C003EAE63 /* TicTacToeController.swift */; };
+		9C42B6DD2AF3D830003EAE63 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42B6DC2AF3D830003EAE63 /* StartViewController.swift */; };
+		9C42B6DF2AF3DD4C003EAE63 /* OtherGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42B6DE2AF3DD4C003EAE63 /* OtherGameViewController.swift */; };
+		9C42B6E12AF3E299003EAE63 /* Choise View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42B6E02AF3E299003EAE63 /* Choise View Controller.swift */; };
 		9C751CBE2AE16232009C9D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C751CBD2AE16232009C9D29 /* AppDelegate.swift */; };
 		9C751CC02AE16232009C9D29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C751CBF2AE16232009C9D29 /* SceneDelegate.swift */; };
 		9C751CC22AE16232009C9D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C751CC12AE16232009C9D29 /* ViewController.swift */; };
 		9C751CC52AE16232009C9D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C751CC32AE16232009C9D29 /* Main.storyboard */; };
 		9C751CC72AE16233009C9D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C751CC62AE16233009C9D29 /* Assets.xcassets */; };
 		9C751CCA2AE16233009C9D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C751CC82AE16233009C9D29 /* LaunchScreen.storyboard */; };
+		9CC35CB42B04BB9600C3741F /* WriteLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC35CB32B04BB9600C3741F /* WriteLoginViewController.swift */; };
+		9CC35CB62B04BBA900C3741F /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC35CB52B04BBA900C3741F /* RatingViewController.swift */; };
+		9CC35CB82B04BEB200C3741F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC35CB72B04BEB200C3741F /* Player.swift */; };
+		9CC35CBA2B04C0F100C3741F /* PlayerRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC35CB92B04C0F100C3741F /* PlayerRating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C42B6D82AECEE0C003EAE63 /* фшф .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "фшф .swift"; sourceTree = "<group>"; };
 		9C42B6DA2AECEF2C003EAE63 /* TicTacToeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeController.swift; sourceTree = "<group>"; };
+		9C42B6DC2AF3D830003EAE63 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9C42B6DE2AF3DD4C003EAE63 /* OtherGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherGameViewController.swift; sourceTree = "<group>"; };
+		9C42B6E02AF3E299003EAE63 /* Choise View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Choise View Controller.swift"; sourceTree = "<group>"; };
 		9C751CBA2AE16232009C9D29 /* App.Aia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.Aia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C751CBD2AE16232009C9D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C751CBF2AE16232009C9D29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +38,10 @@
 		9C751CC62AE16233009C9D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C751CC92AE16233009C9D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C751CCB2AE16233009C9D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC35CB32B04BB9600C3741F /* WriteLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteLoginViewController.swift; sourceTree = "<group>"; };
+		9CC35CB52B04BBA900C3741F /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		9CC35CB72B04BEB200C3741F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9CC35CB92B04C0F100C3741F /* PlayerRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +78,18 @@
 				9C751CBF2AE16232009C9D29 /* SceneDelegate.swift */,
 				9C751CC12AE16232009C9D29 /* ViewController.swift */,
 				9C751CC32AE16232009C9D29 /* Main.storyboard */,
+				9CC35CB72B04BEB200C3741F /* Player.swift */,
+				9CC35CB52B04BBA900C3741F /* RatingViewController.swift */,
+				9CC35CB32B04BB9600C3741F /* WriteLoginViewController.swift */,
 				9C751CC62AE16233009C9D29 /* Assets.xcassets */,
 				9C751CC82AE16233009C9D29 /* LaunchScreen.storyboard */,
 				9C751CCB2AE16233009C9D29 /* Info.plist */,
 				9C42B6D82AECEE0C003EAE63 /* фшф .swift */,
 				9C42B6DA2AECEF2C003EAE63 /* TicTacToeController.swift */,
+				9C42B6DC2AF3D830003EAE63 /* StartViewController.swift */,
+				9C42B6DE2AF3DD4C003EAE63 /* OtherGameViewController.swift */,
+				9C42B6E02AF3E299003EAE63 /* Choise View Controller.swift */,
+				9CC35CB92B04C0F100C3741F /* PlayerRating.swift */,
 			);
 			path = App.Aia;
 			sourceTree = "<group>";
@@ -144,11 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC35CB82B04BEB200C3741F /* Player.swift in Sources */,
 				9C751CC22AE16232009C9D29 /* ViewController.swift in Sources */,
+				9CC35CB62B04BBA900C3741F /* RatingViewController.swift in Sources */,
+				9C42B6E12AF3E299003EAE63 /* Choise View Controller.swift in Sources */,
 				9C42B6D92AECEE0C003EAE63 /* фшф .swift in Sources */,
 				9C42B6DB2AECEF2C003EAE63 /* TicTacToeController.swift in Sources */,
 				9C751CBE2AE16232009C9D29 /* AppDelegate.swift in Sources */,
 				9C751CC02AE16232009C9D29 /* SceneDelegate.swift in Sources */,
+				9C42B6DF2AF3DD4C003EAE63 /* OtherGameViewController.swift in Sources */,
+				9C42B6DD2AF3D830003EAE63 /* StartViewController.swift in Sources */,
+				9CC35CB42B04BB9600C3741F /* WriteLoginViewController.swift in Sources */,
+				9CC35CBA2B04C0F100C3741F /* PlayerRating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

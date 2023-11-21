@@ -10,7 +10,8 @@ import Foundation
 class TicTac {
     var counter = 0
     var XOs:[XO] = []
-    
+    var PlayWithAI = false
+    var personPlayX =  false
     init () {
         for _ in 0...8 {
             let XO = XO()
@@ -26,6 +27,20 @@ class TicTac {
             XOs[index].writeXO = "❌"
         }
         XOs[index].isWrite = true
+        if PlayWithAI && counter < 9 {
+            var randomChoice = Int.random(in: 0...8)
+            while XOs[randomChoice].isWrite {
+                randomChoice = Int.random(in: 0...8)
+            }
+            counter += 1
+            if counter % 2 == 0 {
+                XOs[randomChoice].writeXO = "⭕️"
+            } else {
+                XOs[randomChoice].writeXO = "❌"
+            }
+           
+            XOs[randomChoice].isWrite = true
+        }
     }
     func restart() {
         counter = 0
@@ -33,6 +48,16 @@ class TicTac {
             XOs[i].isWrite = false
             XOs[i].writeXO = nil
         }
+        if personPlayX {
+            
+            if PlayWithAI {
+                let randomChoice = Int.random(in: 0...8)
+                counter += 1
+                XOs[randomChoice].writeXO = "❌"
+                XOs[randomChoice].isWrite = true
+            }
+        }
+        personPlayX.toggle()
     }
     func win() -> String? {
         let winCombination =
